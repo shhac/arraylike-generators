@@ -1,2 +1,3 @@
-export { intersection } from './intersection';
-export { default, intersectionEquality } from './intersection-equality';
+export * as array from './array';
+
+export { default } from './array';
