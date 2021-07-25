@@ -1,7 +1,7 @@
 import 'jest';
 
 import { map } from './map';
-import { toGenerator } from './to-generator';
+import { toGenerator } from '../array/to-generator';
 
 describe('sync map', () => {
   test.each<[number[], number[]]>([

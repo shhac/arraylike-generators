@@ -2,7 +2,7 @@ import 'jest';
 
 import { toGenerator } from './to-generator';
 
-describe('iterator-sync toGenerator', () => {
+describe('array toGenerator', () => {
   it('should give an object with a next', () => {
     const result = toGenerator([]);
     expect(result?.next).toBeInstanceOf(Function);

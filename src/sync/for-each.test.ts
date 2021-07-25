@@ -1,7 +1,7 @@
 import 'jest';
 
 import { forEach } from './for-each';
-import { toGenerator } from './to-generator';
+import { toGenerator } from '../array/to-generator';
 
 describe('sync forEach', () => {
   test.each<[number[]]>([

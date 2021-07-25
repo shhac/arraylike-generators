@@ -12,15 +12,16 @@ Use array-like methods on generators
 
 ### map
 
-### toGenerator
-
-Convert an array to a generator
-
 ## Async
 
 TODO
 
 ## Array
+
+### toGenerator
+
+Convert an array to a generator.
+This is similar to `arr.values`, except the `length` is returned upon completion ( when `done: true` )
 
 ### intersection / intersectionEquality
 

@@ -1,7 +1,7 @@
 import 'jest';
 
 import { flatMap } from './flat-map';
-import { toGenerator } from './to-generator';
+import { toGenerator } from '../array/to-generator';
 
 describe('sync flatMap', () => {
   test.each<[number[], number[]]>([

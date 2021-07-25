@@ -1,2 +1,3 @@
+export { intersectionEquality } from './intersection-equality';
 export { intersection } from './intersection';
-export { default, intersectionEquality } from './intersection-equality';
+export { toGenerator } from './to-generator';
