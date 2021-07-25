@@ -1,12 +1,12 @@
 {
-  "name": "intersection",
+  "name": "arraylike-generators",
   "version": "1.0.0",
-  "description": "Get the intersection of two arrays",
+  "description": "Use array-like methods on generators",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git://github.com/shhac/intersection"
+    "url": "git://github.com/shhac/arraylike-generators"
   },
   "author": "Paul Somers @shhac",
   "license": "MIT",

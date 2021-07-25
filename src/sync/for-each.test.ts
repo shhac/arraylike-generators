@@ -3,7 +3,7 @@ import 'jest';
 import { forEach } from './for-each';
 import { toGenerator } from './to-generator';
 
-describe('iterator-sync forEach', () => {
+describe('sync forEach', () => {
   test.each<[number[]]>([
     [[]],
     [[0]],

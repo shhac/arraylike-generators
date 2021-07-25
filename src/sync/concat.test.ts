@@ -3,7 +3,7 @@ import 'jest';
 import { concat } from './concat';
 import { toGenerator } from './to-generator';
 
-describe('iterator-sync concat', () => {
+describe('sync concat', () => {
   test.each<number[][]>([
     [[], [], []],
     [[0], [], [0]],

@@ -3,7 +3,7 @@ import 'jest';
 import { flatMap } from './flat-map';
 import { toGenerator } from './to-generator';
 
-describe('iterator-sync flatMap', () => {
+describe('sync flatMap', () => {
   test.each<[number[], number[]]>([
     [[], []],
     [[0], [0]],

@@ -3,7 +3,7 @@ import 'jest';
 import { map } from './map';
 import { toGenerator } from './to-generator';
 
-describe('iterator-sync map', () => {
+describe('sync map', () => {
   test.each<[number[], number[]]>([
     [[], []],
     [[0], [0]],
