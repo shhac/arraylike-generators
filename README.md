@@ -12,6 +12,8 @@ Use array-like methods on generators
 
 ### map
 
+### slice
+
 ## Async
 
 TODO
